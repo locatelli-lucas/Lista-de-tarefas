@@ -1,0 +1,44 @@
+body {
+    background: #3d4ea1;
+    background: radial-gradient(circle, #3d4ea1 0%, #c64d65 82%);
+    height: 98vh;
+}
+
+#button {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+#button button {
+    width: 11%;
+    height: 20%;
+    border: 3px solid #000000;
+    background-color: #6c6d72;
+    font-weight: bold;
+    transition: 500ms;
+}
+
+#button button:hover {
+    cursor: pointer;
+    background-color: #b9bbbd;
+    transform: scale(1.1);
+}
+
+#button button:active {
+    border-color: #ffffff;
+}
+
+#tasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body hr {
+    width: 98vw;
+}
